@@ -81,7 +81,7 @@ Because Nicky stores data locally and we do not operate a Nicky cloud service, m
 
 ## California Privacy Notice (CCPA/CPRA)
 
-We do not sell or share personal information for cross-context behavioral advertising. We do not collect personal information through the App for our own business purposes beyond what is stored locally on your device under your control. California residents may contact **[YOUR CONTACT EMAIL]** with privacy questions.
+We do not sell or share personal information for cross-context behavioral advertising. We do not collect personal information through the App for our own business purposes beyond what is stored locally on your device under your control. California residents may contact boyoproductionsofficial@gmail.com with privacy questions.
 
 ---
 
