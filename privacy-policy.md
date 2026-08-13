@@ -1,17 +1,19 @@
 # Privacy Policy for Nicky
 
 **Effective date:** June 10, 2026  
-**Last updated:** June 10, 2026
+**Last updated:** August 12, 2026
 
 Boyo Productions ("we," "us," or "our") operates the Nicky mobile application (the "App"). This Privacy Policy explains how the App handles information when you use it.
 
-If you have questions, contact us at boyoproductionsofficial@gmail.com.
+If you have questions, contact us at **boyoproductionsofficial@gmail.com**.
 
 ---
 
 ## Summary
 
-Nicky is a personal budget companion. **We do not operate a Nicky account system or backend server.** The financial information you enter is stored **locally on your device** unless you choose to export or share it. We do not sell your data, show ads, or use third-party analytics in the current version of the App.
+Nicky is a personal budget companion. **We do not operate a Nicky account system or backend server.** The financial information you enter is stored **locally on your device** unless you choose to export, share, or restore it. We do not sell your data, show ads, or use advertising analytics.
+
+We use a crash-reporting service so we can fix bugs. Crash reports do **not** include your transactions, budgets, notes, or category names.
 
 ---
 
@@ -28,18 +30,46 @@ This data is saved using on-device storage (AsyncStorage) and remains on your ph
 
 ---
 
+## Crash Diagnostics (Sentry)
+
+To keep the App stable, Nicky uses [Sentry](https://sentry.io/) to receive crash and error reports. When the App crashes or hits an unexpected error, Sentry may receive:
+
+- App version and build number
+- Device type and operating system version
+- A technical stack trace (where in the code the error happened)
+- Coarse runtime information (for example, whether the App is a store build)
+
+We configure Sentry so that it does **not** send:
+
+- Transaction amounts, notes, categories, or budget limits
+- Screenshots or a recording of your screen
+- Your name, unless you type a contact email into **Report a problem**
+
+Sentry's handling of this diagnostic data is described in [Sentry's privacy policy](https://sentry.io/privacy/).
+
+---
+
+## Reports You Choose to Send
+
+Settings includes **Report a problem**. If you use it, you can write a short description and optionally leave an email so we can reply. That report includes the same diagnostics listed above. It does **not** include your budget data.
+
+If crash reporting is not available, the App may open your mail app or the system share sheet instead. You choose whether to send that draft.
+
+---
+
 ## Information We Do Not Collect
 
 In the current version of Nicky, we do **not**:
 
 - Require you to create an account or sign in
 - Automatically upload your transactions or budgets to our servers
-- Collect your name, email address, or contact details through the App
 - Access your location, camera, photo library, contacts, or microphone
-- Use advertising or cross-app tracking
-- Use third-party analytics or crash-reporting SDKs
+- Use advertising, cross-app tracking, or product-analytics SDKs (we do not count which screens you open)
+- Capture session replay or screenshots of the App
 
-Because we do not receive your budget data on our systems, we generally cannot access, retrieve, or delete your entries on your behalf. You control this data on your device.
+We only receive a contact email if you type one into a problem report.
+
+Because we do not receive your budget data on our systems, we generally cannot access, retrieve, or delete your entries on your behalf. You control this data on your device. You can ask us to delete a problem report or crash event you believe is associated with you by emailing us.
 
 ---
 
@@ -63,25 +93,25 @@ You can remove your Nicky data at any time:
 - Use **Erase all data** in Settings to reset transactions, budgets, custom categories, and currency on that device
 - Uninstall the App to remove locally stored data from your device (subject to your operating system's behavior for app data)
 
-Erasing or uninstalling does not delete copies you previously exported or shared elsewhere.
+Erasing or uninstalling does not delete copies you previously exported or shared elsewhere, and it does not automatically delete crash reports already received by Sentry. Contact us if you want those diagnostic records removed where we can identify them.
 
 ---
 
 ## Children's Privacy
 
-Nicky is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children. If you believe a child has provided information to us, contact us at boyoproductionsofficial@gmail.com and we will assist as appropriate.
+Nicky is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children. If you believe a child has provided information to us, contact us at **boyoproductionsofficial@gmail.com** and we will assist as appropriate.
 
 ---
 
 ## Legal Bases and Your Rights (EEA, UK, and Similar Regions)
 
-Because Nicky stores data locally and we do not operate a Nicky cloud service, most processing happens **on your device under your control**. If applicable law grants you rights (such as access, correction, deletion, or portability), you can exercise them directly in the App (view, edit, export, or erase data) or by contacting us. We will respond within a reasonable time where we are legally required to do so.
+Most budget data is stored **on your device under your control**. Crash diagnostics are processed so we can operate and improve the App (legitimate interests / performance of a service, as applicable). If applicable law grants you rights (such as access, correction, deletion, or portability), you can exercise them directly in the App (view, edit, export, or erase budget data) or by contacting us about diagnostic reports. We will respond within a reasonable time where we are legally required to do so.
 
 ---
 
 ## California Privacy Notice (CCPA/CPRA)
 
-We do not sell or share personal information for cross-context behavioral advertising. We do not collect personal information through the App for our own business purposes beyond what is stored locally on your device under your control. California residents may contact boyoproductionsofficial@gmail.com with privacy questions.
+We do not sell or share personal information for cross-context behavioral advertising. California residents may contact **boyoproductionsofficial@gmail.com** with privacy questions.
 
 ---
 
@@ -94,15 +124,6 @@ We may update this Privacy Policy from time to time. When we do, we will revise 
 ## Contact Us
 
 **Boyo Productions**  
-Email: boyoproductionsofficial@gmail.com  
+Email: **boyoproductionsofficial@gmail.com**  
 
 ---
-
-## App Store Privacy Labels (Current Version)
-
-For Apple's App Privacy questionnaire, the current App behavior is generally:
-
-- **Data not collected** by us for tracking or linked to your identity on our servers, because budget data stays on your device and we do not operate a Nicky backend
-- Revisit App Store privacy answers if you add analytics, crash reporting, accounts, or cloud sync in a future update
-
-This section is provided as a convenience and does not replace your own review of App Store Connect requirements.
